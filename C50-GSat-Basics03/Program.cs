@@ -105,9 +105,29 @@ namespace C50_GSat_Basics03
             {
                 Console.WriteLine("You can borrow this book");
             }
-          
-            #endregion
 
+            #endregion
+            #region Question 10
+            string title4= "Refactoring";
+            switch (title4)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+
+
+
+
+
+
+            #endregion
         }
     }
 }
