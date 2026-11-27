@@ -69,6 +69,12 @@ namespace C50_GSat_Basics03
             //Build the same sentence as above, but using string interpolation ($"...").
               Console.WriteLine($"Book: {title1}, Pages: {pages}");
             #endregion
+            #region Question 7
+            //Build the same sentence again, but using string.Format().
+            Console.WriteLine(string .Format("tittle1:{0}, pages:{1}", title1, pages));
+
+
+            #endregion
 
 
         }
