@@ -59,11 +59,18 @@ namespace C50_GSat_Basics03
 
             string title1 = "Clean Code";
             int pages = 464;
-            Console.WriteLine($"The book {title1} has {pages} pages.");
+
 
 
 
             #endregion
+
+            #region Question 6
+            //Build the same sentence as above, but using string interpolation ($"...").
+              Console.WriteLine($"Book: {title1}, Pages: {pages}");
+            #endregion
+
+
         }
     }
 }
