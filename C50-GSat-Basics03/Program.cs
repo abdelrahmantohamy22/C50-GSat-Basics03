@@ -43,12 +43,24 @@ namespace C50_GSat_Basics03
 
 
 
-            #endregion 
+            #endregion  
+
             #region Question 4
             //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
             //Print the result.
             sbj.Replace("Book list", "Library");
             Console.WriteLine($" the final result is {sbj}");
+
+
+            #endregion
+            #region Question 5
+            //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code,
+            //    Pages: 464" using the + operator.
+
+            string title1 = "Clean Code";
+            int pages = 464;
+            Console.WriteLine($"The book {title1} has {pages} pages.");
+
 
 
             #endregion
