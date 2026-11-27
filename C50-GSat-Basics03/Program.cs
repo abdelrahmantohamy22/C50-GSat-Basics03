@@ -108,6 +108,7 @@ namespace C50_GSat_Basics03
             }
 
             #endregion
+
             #region Question 10
             //Given string title = "Refactoring";, write a switch statement that prints "Great choice!" if the title is
             //        "Clean Code", "Nice pick!" if it's "Refactoring", and "Never heard of it" for anything else.
@@ -148,6 +149,26 @@ namespace C50_GSat_Basics03
             {
                 Console.WriteLine(i);
             }
+            #endregion
+            #region Question 13
+            //Using the same books array, use a while loop to print every book title.
+
+            string[] books2= { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int j = 0;
+            while (j < books2.Length)
+            {
+                Console.WriteLine(books2[j]);
+                j++;
+            }
+            #endregion
+            #region Question 14
+            //Write a do-while loop that prints "Checking book..." exactly 3 times
+            int k = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                k++;
+            } while (k <3);
             #endregion
         }
     }
