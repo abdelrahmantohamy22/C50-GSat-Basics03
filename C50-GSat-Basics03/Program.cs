@@ -1,6 +1,7 @@
 ﻿
 
 using System.Drawing;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 
 namespace C50_GSat_Basics03
@@ -40,6 +41,14 @@ namespace C50_GSat_Basics03
             sbj.Append("- Updated");
             Console.WriteLine(sbj);
 
+
+
+            #endregion 
+            #region Question 4
+            //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
+            //Print the result.
+            sbj.Replace("Book list", "Library");
+            Console.WriteLine($" the final result is {sbj}");
 
 
             #endregion
