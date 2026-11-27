@@ -176,8 +176,21 @@ namespace C50_GSat_Basics03
             foreach (string book in books3)
             {
                 Console.WriteLine(book);
-            }   
+            }
 
+            #endregion
+            #region Question 16
+            //Using the same books array, loop through it and print each title, but stop completely(break) once
+            //    you reach "Refactoring".
+
+            string[] books4 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int l = 0;
+            while(l< books4.Length)
+                if(books4[l] == "Refactoring")
+                {
+                    break;
+                }
+              
             #endregion
         }
     }
