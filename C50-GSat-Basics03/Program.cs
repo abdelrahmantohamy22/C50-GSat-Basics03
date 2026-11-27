@@ -190,7 +190,28 @@ namespace C50_GSat_Basics03
                 {
                     break;
                 }
-              
+
+            #endregion
+            #region Question 17
+            //Using the same books array, print every title except "The Pragmatic Programmer"(skip it with
+            //    continue, don't stop the loop).
+            string[] books5 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int m = 0;
+            while (m< books5.Length)
+            {
+                if (books5[m] == "The Pragmatic Programmer")
+                {
+                    m++;
+                    continue;
+                }
+                Console.WriteLine(books5[m]);
+                m++;
+                
+                    
+                
+            }
+
+
             #endregion
         }
     }
