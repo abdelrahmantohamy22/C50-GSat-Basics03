@@ -170,6 +170,15 @@ namespace C50_GSat_Basics03
                 k++;
             } while (k <3);
             #endregion
+            #region Question 15
+            //Using the same books array, use a foreach loop to print every book title.
+            string[] books3= { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books3)
+            {
+                Console.WriteLine(book);
+            }   
+
+            #endregion
         }
     }
 }
