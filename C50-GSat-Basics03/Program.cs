@@ -8,7 +8,7 @@ namespace C50_GSat_Basics03
 {
     internal class Program
     {
-        
+
         static void Main(string[] args)
         {
             #region Question 1
@@ -67,15 +67,35 @@ namespace C50_GSat_Basics03
 
             #region Question 6
             //Build the same sentence as above, but using string interpolation ($"...").
-              Console.WriteLine($"Book: {title1}, Pages: {pages}");
+            Console.WriteLine($"Book: {title1}, Pages: {pages}");
             #endregion
             #region Question 7
             //Build the same sentence again, but using string.Format().
-            Console.WriteLine(string .Format("tittle1:{0}, pages:{1}", title1, pages));
+            Console.WriteLine(string.Format("tittle1:{0}, pages:{1}", title1, pages));
 
 
             #endregion
 
+            #region Question 8
+            //Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than
+            //    300, otherwise prints "Short Book".
+            int pages1 = 464;
+            if (pages1 > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+
+
+
+
+
+
+
+            #endregion
 
         }
     }
