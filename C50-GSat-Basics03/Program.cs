@@ -97,6 +97,17 @@ namespace C50_GSat_Basics03
 
             #endregion
 
+            #region Question 9
+            //Given int pages = 464; and bool isAvailable = true;, print "You can borrow this book" only if pages is
+            //    greater than 300 and isAvailable is true.Use the && operator
+            bool isAvailable = true;
+            if(pages1>300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+          
+            #endregion
+
         }
     }
 }
