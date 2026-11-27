@@ -3,6 +3,7 @@
 using System.Drawing;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C50_GSat_Basics03
 {
@@ -137,6 +138,16 @@ namespace C50_GSat_Basics03
             string sizeLabel = pages2>300? "Long Book" : "Short Book";
             Console.WriteLine(sizeLabel);
 
+            #endregion
+            #region Question 12
+            //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop
+            //    to print each book with its position number, like 1.Clean Code.
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for( int i=0; i<books.Length; i++)
+            {
+                Console.WriteLine(i);
+            }
             #endregion
         }
     }
